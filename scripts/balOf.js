@@ -3,7 +3,7 @@ const { ethers } = require("hardhat");
 const { sendSignedShieldedQuery } = require("./utils");
 const { SwisstronikProvider } = require("@swisstronik/swisstronik.js");
   
-  const PK = "3c9a56b67d3eb2740284c047083678f47e1e040cdd0946b7f0dfbe535f8cfd10";
+  const PK = "hello";
   const deployedContractAddress = "0x5a3aD1D2DDBc2db1F559bD1Cfa10d01b513D2027";
   
   async function main() {
